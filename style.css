@@ -12,7 +12,7 @@ nav{
     height: 45px;
     border-radius: 70px;
     width: 90vw;
-    background-image: linear-gradient(to right, rgba(98, 201, 241, 0.818),rgba(2, 15, 157, 0.452));
+    background-image: linear-gradient(to right, rgba(145, 30, 105, 0.818),rgba(2, 15, 157, 0.452));
 }
 .navbar li{
     list-style: none;
@@ -38,11 +38,11 @@ nav{
 }
 #nav-list a:hover{
     /* text-shadow: 2px 2px 0 0 rgba(45, 11, 112, 0.452); */
-    box-shadow: 2px 0 5px 5px rgba(45, 11, 112, 0.452);
+    box-shadow: 2px 0 5px 5px rgba(208, 204, 215, 0.452);
     border-radius: 40px;
 }
 body{
-    background-image: url("b2.jpg");
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -56,10 +56,38 @@ main{
 .box{
     height: 500px;
     width: 900px;
+    font-size: larger;
+    color: white;
     background-color: rgba(45, 11, 112, 0.918);
-    background-image: linear-gradient(to right, rgba(236, 157, 210, 0.818),rgba(104, 75, 161, 0.452));
+    background-image: linear-gradient(to right, rgba(126, 40, 97, 0.818),rgba(104, 75, 161, 0.452));
     box-shadow: 0 2px 15px 2px whitesmoke;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.box p,h1,ul{
+    width: 800px;
+}
+.cont{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+    text-decoration: none;   
+}
+.cont a{
+    color: white;
+}
+.cont ul{
+    list-style: none;
+}
+.cont ul li{
+    padding: 10px;
 }
 .sec{
     /* border: 2px solid red; */
@@ -77,7 +105,7 @@ main{
 .back{
     display: flex;
     justify-content: center;
-    height: 800px;
+    height: 700px;
     /* border: 2px solid red; */
     justify-content: center;
     align-items: center;
@@ -91,16 +119,17 @@ main{
     width: 90vw;
 }
 .image{
-    width: 45%;
+    width: 25%;
     /* border: 2px solid red; */
-    height: 500px;
+    height: 400px;
     display: flex;
     position: relative;
-    
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
 }
 .description{
     font-weight: bold;
+    font-size: large;
     color: white;
     width: 60%;
     /* height: 500px; */
@@ -108,8 +137,8 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: black;
-    background-color: whitesmoke;
+    background-image: linear-gradient(to right, rgba(161, 32, 116, 0.818),rgba(2, 15, 157, 0.452));
+    /* background-color: whitesmoke; */
     /* text-align: center; */
     align-items: center;
     border-radius: 50px;
@@ -124,9 +153,10 @@ main{
 }
 #mainimage{
     border-radius: 160px;
-    height: 270px;
-    width: 260px;
+    height: 220px;
+    width: 220px;
     /* margin: 0 auto; */
     /* border: 2px solid red; */
     box-shadow: 0 5px 5px 2px white;
+
 }
