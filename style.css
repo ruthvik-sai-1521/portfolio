@@ -160,3 +160,12 @@ main{
     box-shadow: 0 5px 5px 2px white;
 
 }
+.project{
+    margin-top: 50px;
+    color: white;
+    background-color: rgba(45, 11, 112, 0.918);
+    background-image: linear-gradient(to right, rgba(126, 40, 97, 0.818),rgba(104, 75, 161, 0.452));
+    box-shadow: 0 2px 15px 2px whitesmoke;
+    border-radius: 30px;
+    padding-left: 10px;
+}
